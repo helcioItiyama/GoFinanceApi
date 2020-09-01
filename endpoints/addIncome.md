@@ -60,3 +60,40 @@ Used to add an income for a registered User.
   "message": "You should choose either renda-variavel or renda-fixa"
 }
 ```
+
+**Or
+
+**Condition** : If the date is in the future.
+
+**Code** : `400 BAD REQUEST`
+
+**Content example**
+
+```json
+{
+  "status": "error",
+  "message": "You should not choose a date in the future"
+}
+```
+
+**Or
+
+**Condition** : If the value is less than 1.
+
+**Code** : `400 BAD REQUEST`
+
+**Content example**
+
+```json
+{
+  "statusCode": 400,
+  "error": "Bad Request",
+  "message": "\"value\" must be a positive number",
+  "validation": {
+    "source": "body",
+    "keys": [
+      "value"
+    ]
+  }
+}
+```
