@@ -45,3 +45,18 @@ Used to add an income for a registered User.
   "updated_at": "2020-08-31T04:06:39.568Z"
 }
 ```
+
+## Error Responses
+
+**Condition** : If the value for type is not found in the database.
+
+**Code** : `400 BAD REQUEST`
+
+**Content example**
+
+```json
+{
+  "status": "error",
+  "message": "You should choose either renda-variavel or renda-fixa"
+}
+```

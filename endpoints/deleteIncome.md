@@ -4,7 +4,7 @@ Used to delete an income for a registered User.
 
 **URL** : `/incomes/:id`
 
-**Method** : `PUT`
+**Method** : `DELETE`
 
 **Auth required** : YES
 
