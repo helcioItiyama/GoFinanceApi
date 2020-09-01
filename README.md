@@ -2,7 +2,7 @@
     <img alt ="homepage" src="https://github.com/helcioItiyama/GoFinanceWeb/blob/master/src/assets/logo.png"/>
 </p>
 
-## :triangular_flag_on_post:Index
+## :triangular_flag_on_post: INDEX
 
 * [About the project](#arrow_right-about-the-project)
 * [Technologies used for this project](#computer-technologies-used-for-this-project)
@@ -28,7 +28,7 @@ This project provides a RESTfull API that allows users to list, create, update a
 * [Delete Income](endpoints/deleteIncome.md) : `DELETE  baseUrl/incomes/:id`
 
 
-## :computer: TECHNOLOGIES USED FOR THIS PROJECT:
+## :computer: TECHNOLOGIES USED FOR THIS PROJECT
 
 - [**express**](https://github.com/expressjs/express)
 - [**celebrate**](https://github.com/arb/celebrate)
