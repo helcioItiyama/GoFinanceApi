@@ -53,7 +53,7 @@ Start cloning the Github repository running the following commands:
 $ https://github.com/helcioItiyama/GoFinance.git
 
 # Go into the repository in the terminal
-$ cd fashionista
+$ cd GoFinance
 
 # Install dependencies
 $ yarn
