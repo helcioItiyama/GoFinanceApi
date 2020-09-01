@@ -50,10 +50,10 @@ Start cloning the Github repository running the following commands:
 
 ```bash
 # Clone this repository
-$ https://github.com/helcioItiyama/GoFinance.git
+$ https://github.com/helcioItiyama/GoFinanceApi.git
 
 # Go into the repository in the terminal
-$ cd GoFinance
+$ cd GoFinanceApi
 
 # Install dependencies
 $ yarn
