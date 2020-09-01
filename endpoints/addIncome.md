@@ -61,7 +61,7 @@ Used to add an income for a registered User.
 }
 ```
 
-**Or
+### Or
 
 **Condition** : If the date is in the future.
 
@@ -76,7 +76,7 @@ Used to add an income for a registered User.
 }
 ```
 
-**Or
+### Or
 
 **Condition** : If the value is less than 1.
 
