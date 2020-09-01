@@ -32,6 +32,12 @@ class CreateIncomeService {
       throw new AppError('You should enter a valid income value');
     }
 
+    if (type !== 'renda-variavel' && type !== 'renda-fixa') {
+      throw new AppError(
+        'You should choose either renda-variavel or renda-fixa',
+      );
+    }
+
     const income = await this.incomesRepository.create({
       type,
       value,

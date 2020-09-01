@@ -35,6 +35,12 @@ class UpdateIncomeService {
       throw new AppError('You are not allowed to update this income');
     }
 
+    if (type !== 'renda-variavel' && type !== 'renda-fixa') {
+      throw new AppError(
+        'You should choose either renda-variavel or renda-fixa',
+      );
+    }
+
     income.type = type;
     income.value = value;
     income.date = date;
