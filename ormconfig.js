@@ -1,11 +1,19 @@
+const rootDir = process.env.NODE_ENV === "development" ?
+  "src" :
+  "dist"
+
+const file =  process.env.NODE_ENV === "development" ?
+"ts" :
+"js"
+
 module.exports = {
   "type": "postgres",
   "url": process.env.DATABASE_URL,
   "entities": [
-    "dist/modules/**/infra/typeorm/entities/*.js"
+    rootDir + "/modules/**/infra/typeorm/entities/*." + file
   ],
   "migrations": [
-    "dist/shared/infra/typeorm/migrations/*.js"
+    rootDir + "/shared/infra/typeorm/migrations/*." + file
   ],
   "cli": {
     "migrationsDir": "src/shared/infra/typeorm/migrations/",
