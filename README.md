@@ -74,7 +74,7 @@ docker start imageName
 
 You will also need to create a file with the name of ```.env ``` and follow the example of the ```.env.example``` file to fill in the development variables.
 
-Now with Postgres installed and running, you need to create a database. Rotate the code below to install the MIGRATIONS:
+Now with Postgres installed and running, you'll need to create a database. Type the code below to install the MIGRATIONS:
 
 ```bash
 $ yarn typeorm migration:run
